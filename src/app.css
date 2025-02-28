@@ -1,3 +1,65 @@
-@import 'tailwindcss';
-@plugin '@tailwindcss/typography';
-@plugin '@tailwindcss/forms'
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer utilities {
+    .shadowed {
+        -webkit-filter: drop-shadow(2px 2px 10px rgba(0,0,0,0.5) );
+        filter: drop-shadow(2px 2px 10px rgba(0,0,0,0.5) );
+    }
+
+    .heavy-shadowed {
+        -webkit-filter: drop-shadow(2px 2px 10px rgba(0,0,0,1) );
+        filter: drop-shadow(2px 2px 10px rgba(0,0,0,1) );
+    }
+
+    .button {
+        @apply px-5 py-2 bg-mpp text-white rounded-lg uppercase font-bold tracking-wider hover:bg-mpp-dark duration-200 cursor-pointer w-max text-lg;
+    }
+
+    .button-alt {
+        @apply px-5 py-2 bg-white text-mpp rounded-lg uppercase font-bold tracking-wider hover:bg-white/75 duration-200 cursor-pointer w-max text-lg;
+    }
+
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+
+    /* Hide scrollbar for IE, Edge and Firefox */
+    .no-scrollbar {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+    }
+}
+
+@layer utilities {
+    .shadowed {
+        -webkit-filter: drop-shadow(2px 2px 10px rgba(0,0,0,0.5) );
+        filter: drop-shadow(2px 2px 10px rgba(0,0,0,0.5) );
+    }
+
+    .heavy-shadowed {
+        -webkit-filter: drop-shadow(2px 2px 10px rgba(0,0,0,1) );
+        filter: drop-shadow(2px 2px 10px rgba(0,0,0,1) );
+    }
+
+    .button {
+        @apply px-5 py-2 bg-mpp text-white rounded-lg uppercase font-bold tracking-wider hover:bg-mpp-dark duration-200 cursor-pointer w-max text-lg;
+    }
+
+    .button-alt {
+        @apply px-5 py-2 bg-white text-mpp rounded-lg uppercase font-bold tracking-wider hover:bg-white/75 duration-200 cursor-pointer w-max text-lg;
+    }
+
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+
+    /* Hide scrollbar for IE, Edge and Firefox */
+    .no-scrollbar {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+    }
+}
