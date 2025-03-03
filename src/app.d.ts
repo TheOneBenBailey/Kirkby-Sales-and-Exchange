@@ -10,4 +10,10 @@ declare global {
 	}
 }
 
+export type UserMarketingPreferences = {
+    email: string,
+    dtdLive: boolean,
+    mpp: boolean
+}
+
 export {};

@@ -28,7 +28,7 @@
 </div>
 
 <div class="flex items-center p-4 lg:hidden fixed z-[100] bg-gradient-to-b from-black w-full" class:scrolled>
-    <a href="/static">
+    <a href="/">
         <img src={logo} alt="DTD LIve" class="object-cover max-h-12 shadowed" />
     </a>
 </div>
@@ -39,6 +39,6 @@
     }
 
     .scrolled {
-        @apply bg-gradient-to-tr from-mpp-dark/75 to-mpp-light/75 shadow-lg backdrop-blur-md border-none duration-200;
+        @apply bg-gradient-to-tr from-kse-dark/75 to-kse-light/75 shadow-lg backdrop-blur-md border-none duration-200;
     }
 </style>

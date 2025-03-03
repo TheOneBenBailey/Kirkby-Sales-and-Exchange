@@ -14,7 +14,7 @@
     }
 
     .button {
-        @apply px-5 py-2 bg-mpp text-white rounded-lg uppercase font-bold tracking-wider hover:bg-mpp-dark duration-200 cursor-pointer w-max text-lg;
+        @apply px-5 py-2 bg-mpp text-white rounded-lg uppercase font-bold tracking-wider hover:bg-kse-dark duration-200 cursor-pointer w-max text-lg;
     }
 
     .button-alt {
@@ -45,7 +45,7 @@
     }
 
     .button {
-        @apply px-5 py-2 bg-mpp text-white rounded-lg uppercase font-bold tracking-wider hover:bg-mpp-dark duration-200 cursor-pointer w-max text-lg;
+        @apply px-5 py-2 bg-mpp text-white rounded-lg uppercase font-bold tracking-wider hover:bg-kse-dark duration-200 cursor-pointer w-max text-lg;
     }
 
     .button-alt {

@@ -1,0 +1,7 @@
+.font-bold {
+    /*font-weight: 700 !important;*/
+}
+
+.rotate180 {
+    transform: rotate(180deg);
+}
